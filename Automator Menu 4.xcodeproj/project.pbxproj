@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6414E8C71BDB3732007EE9AE /* ASExecuter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6414E8C61BDB3732007EE9AE /* ASExecuter.m */; };
+		64DA35C91BDB2F5600EB9B8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA35C81BDB2F5600EB9B8E /* AppDelegate.m */; };
+		64DA35CB1BDB2F5600EB9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA35CA1BDB2F5600EB9B8E /* main.m */; };
+		64DA35CD1BDB2F5600EB9B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DA35CC1BDB2F5600EB9B8E /* Images.xcassets */; };
+		64DA35D01BDB2F5600EB9B8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA35CE1BDB2F5600EB9B8E /* MainMenu.xib */; };
+		64DA35DC1BDB2F5700EB9B8E /* Automator_Menu_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA35DB1BDB2F5700EB9B8E /* Automator_Menu_4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64DA35D61BDB2F5600EB9B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DA35BA1BDB2F5600EB9B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DA35C11BDB2F5600EB9B8E;
+			remoteInfo = "Automator Menu 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6414E8C51BDB3732007EE9AE /* ASExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASExecuter.h; sourceTree = "<group>"; };
+		6414E8C61BDB3732007EE9AE /* ASExecuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASExecuter.m; sourceTree = "<group>"; };
+		64DA35C21BDB2F5600EB9B8E /* Automator Menu 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automator Menu 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DA35C61BDB2F5600EB9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DA35C71BDB2F5600EB9B8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64DA35C81BDB2F5600EB9B8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64DA35CA1BDB2F5600EB9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64DA35CC1BDB2F5600EB9B8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64DA35CF1BDB2F5600EB9B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		64DA35D51BDB2F5600EB9B8E /* Automator Menu 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automator Menu 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DA35DA1BDB2F5700EB9B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DA35DB1BDB2F5700EB9B8E /* Automator_Menu_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Automator_Menu_4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DA35BF1BDB2F5600EB9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DA35D21BDB2F5600EB9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DA35B91BDB2F5600EB9B8E = {
+			isa = PBXGroup;
+			children = (
+				64DA35C41BDB2F5600EB9B8E /* Automator Menu 4 */,
+				64DA35D81BDB2F5600EB9B8E /* Automator Menu 4Tests */,
+				64DA35C31BDB2F5600EB9B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64DA35C31BDB2F5600EB9B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DA35C21BDB2F5600EB9B8E /* Automator Menu 4.app */,
+				64DA35D51BDB2F5600EB9B8E /* Automator Menu 4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DA35C41BDB2F5600EB9B8E /* Automator Menu 4 */ = {
+			isa = PBXGroup;
+			children = (
+				64DA35C71BDB2F5600EB9B8E /* AppDelegate.h */,
+				64DA35C81BDB2F5600EB9B8E /* AppDelegate.m */,
+				6414E8C51BDB3732007EE9AE /* ASExecuter.h */,
+				6414E8C61BDB3732007EE9AE /* ASExecuter.m */,
+				64DA35CC1BDB2F5600EB9B8E /* Images.xcassets */,
+				64DA35CE1BDB2F5600EB9B8E /* MainMenu.xib */,
+				64DA35C51BDB2F5600EB9B8E /* Supporting Files */,
+			);
+			path = "Automator Menu 4";
+			sourceTree = "<group>";
+		};
+		64DA35C51BDB2F5600EB9B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DA35C61BDB2F5600EB9B8E /* Info.plist */,
+				64DA35CA1BDB2F5600EB9B8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64DA35D81BDB2F5600EB9B8E /* Automator Menu 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64DA35DB1BDB2F5700EB9B8E /* Automator_Menu_4Tests.m */,
+				64DA35D91BDB2F5700EB9B8E /* Supporting Files */,
+			);
+			path = "Automator Menu 4Tests";
+			sourceTree = "<group>";
+		};
+		64DA35D91BDB2F5700EB9B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DA35DA1BDB2F5700EB9B8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DA35C11BDB2F5600EB9B8E /* Automator Menu 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DA35DF1BDB2F5700EB9B8E /* Build configuration list for PBXNativeTarget "Automator Menu 4" */;
+			buildPhases = (
+				64DA35BE1BDB2F5600EB9B8E /* Sources */,
+				64DA35BF1BDB2F5600EB9B8E /* Frameworks */,
+				64DA35C01BDB2F5600EB9B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automator Menu 4";
+			productName = "Automator Menu 4";
+			productReference = 64DA35C21BDB2F5600EB9B8E /* Automator Menu 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64DA35D41BDB2F5600EB9B8E /* Automator Menu 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DA35E21BDB2F5700EB9B8E /* Build configuration list for PBXNativeTarget "Automator Menu 4Tests" */;
+			buildPhases = (
+				64DA35D11BDB2F5600EB9B8E /* Sources */,
+				64DA35D21BDB2F5600EB9B8E /* Frameworks */,
+				64DA35D31BDB2F5600EB9B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DA35D71BDB2F5600EB9B8E /* PBXTargetDependency */,
+			);
+			name = "Automator Menu 4Tests";
+			productName = "Automator Menu 4Tests";
+			productReference = 64DA35D51BDB2F5600EB9B8E /* Automator Menu 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DA35BA1BDB2F5600EB9B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Allen Garvey";
+				TargetAttributes = {
+					64DA35C11BDB2F5600EB9B8E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					64DA35D41BDB2F5600EB9B8E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 64DA35C11BDB2F5600EB9B8E;
+					};
+				};
+			};
+			buildConfigurationList = 64DA35BD1BDB2F5600EB9B8E /* Build configuration list for PBXProject "Automator Menu 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64DA35B91BDB2F5600EB9B8E;
+			productRefGroup = 64DA35C31BDB2F5600EB9B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DA35C11BDB2F5600EB9B8E /* Automator Menu 4 */,
+				64DA35D41BDB2F5600EB9B8E /* Automator Menu 4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DA35C01BDB2F5600EB9B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA35CD1BDB2F5600EB9B8E /* Images.xcassets in Resources */,
+				64DA35D01BDB2F5600EB9B8E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DA35D31BDB2F5600EB9B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DA35BE1BDB2F5600EB9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6414E8C71BDB3732007EE9AE /* ASExecuter.m in Sources */,
+				64DA35CB1BDB2F5600EB9B8E /* main.m in Sources */,
+				64DA35C91BDB2F5600EB9B8E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DA35D11BDB2F5600EB9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA35DC1BDB2F5700EB9B8E /* Automator_Menu_4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DA35D71BDB2F5600EB9B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DA35C11BDB2F5600EB9B8E /* Automator Menu 4 */;
+			targetProxy = 64DA35D61BDB2F5600EB9B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64DA35CE1BDB2F5600EB9B8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DA35CF1BDB2F5600EB9B8E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DA35DD1BDB2F5700EB9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64DA35DE1BDB2F5700EB9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64DA35E01BDB2F5700EB9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Automator Menu 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64DA35E11BDB2F5700EB9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Automator Menu 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64DA35E31BDB2F5700EB9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Automator Menu 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automator Menu 4.app/Contents/MacOS/Automator Menu 4";
+			};
+			name = Debug;
+		};
+		64DA35E41BDB2F5700EB9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Automator Menu 4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automator Menu 4.app/Contents/MacOS/Automator Menu 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DA35BD1BDB2F5600EB9B8E /* Build configuration list for PBXProject "Automator Menu 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DA35DD1BDB2F5700EB9B8E /* Debug */,
+				64DA35DE1BDB2F5700EB9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DA35DF1BDB2F5700EB9B8E /* Build configuration list for PBXNativeTarget "Automator Menu 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DA35E01BDB2F5700EB9B8E /* Debug */,
+				64DA35E11BDB2F5700EB9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DA35E21BDB2F5700EB9B8E /* Build configuration list for PBXNativeTarget "Automator Menu 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DA35E31BDB2F5700EB9B8E /* Debug */,
+				64DA35E41BDB2F5700EB9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64DA35BA1BDB2F5600EB9B8E /* Project object */;
+}
